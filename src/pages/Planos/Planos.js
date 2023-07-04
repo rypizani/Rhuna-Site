@@ -8,22 +8,24 @@ import CelestialObjectCard2 from "../../components/CelestialObjectCard2/Celestia
 
 import { StyledSection } from "./StyledPlanets";
 
-const Planets = () => (
+const Planos = () => (
   <>
-    <PageHeader title="Serviços"/>
+
+   <PageHeader title="Planos"/>
     <StyledSection>
-      <CelestialObjectCardsContainer>
-        {planets.map((planet) => (
-          <CelestialObjectCard
-            key={planet.id}
-            imagem={planet.imagem}
-            name={planet.name}
-            to={`/body/${planet.id}`}
+    <CelestialObjectCardsContainer>
+        {planets2.map((planet2) => (
+          <CelestialObjectCard2
+            key={planet2.id}
+            imagem={planet2.imagem}
+            name={planet2.name}
+            to={`/contact`}
           />
         ))}
       </CelestialObjectCardsContainer>
     </StyledSection>
+
   </>
 );
 
-export default Planets;
+export default Planos;

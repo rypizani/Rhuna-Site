@@ -23,7 +23,7 @@ const Footer = () => {
         <StyledFooterRow>
           <StyledFooterRow linkContainer>
             <StyledFooterColumn>
-              <HeaderFooterP smallHeader>Planets</HeaderFooterP>
+              <HeaderFooterP smallHeader>Serviços</HeaderFooterP>
               {planets.map((item, index) => {
                 return (
                   <FooterLink key={index} to={`/body/${item.id}`}>
@@ -42,7 +42,9 @@ const Footer = () => {
               <HeaderFooterP smallHeader>About</HeaderFooterP>
               <FooterA href="#">News and press</FooterA>
               <FooterA href="#">Personal data and collection</FooterA>
-              <FooterA href="#">FAQ</FooterA>
+              <FooterLink to="/FAQ">
+              <FooterA>FAQ</FooterA>
+              </FooterLink>
             </StyledFooterColumn>
           </StyledFooterRow>
         </StyledFooterRow>

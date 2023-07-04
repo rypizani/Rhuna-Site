@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 import { Header } from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
+import Planos from "./pages/Planos/Planos"
 import NotFoundPage from "./pages/NotFound/NotFound";
 import LandingPage from "./pages/Landing/Landing"
 import BodyPage from "./pages/Body/Body";
@@ -27,9 +28,10 @@ function App() {
         <Routes>
           <Route path="*" element={<NotFoundPage />} />
           <Route path="/" element={<LandingPage />} />
+          <Route path="/plans" element={<Planos />} />
           <Route path="/service" element={<PlanetsPage />} />
           <Route path="/body/:id" element={<BodyPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/FAQ" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />

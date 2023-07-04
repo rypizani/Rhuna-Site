@@ -24,3 +24,11 @@ export const planets = [
   {id: 'reunioes',  name: 'Reuniões',   description:'teste',imagem: 'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2Freunioes.jpg?alt=media&token=46cc5db8-6242-4b39-95e1-19ec642117fc' },
   {id: 'api', name: 'Integrações',  description:'teste', imagem:'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2F7122676.jpg?alt=media&token=cf9f7d23-4ecd-47bc-ab4c-59de7272af1d'},
 ]
+
+
+export const planets2 = [
+  {id: 'Adquirir', name: 'Adquirir', imagem:'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2FRhuna%20Arquivos.png?alt=media&token=1205072f-3726-4ddf-ac5c-6ceddd50eaad'},
+  {id: 'Adquirir',   name: 'Adquirir',imagem:'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2FRhuna%20Arquivos.png?alt=media&token=1205072f-3726-4ddf-ac5c-6ceddd50eaad'  },
+  {id: 'Adquirir',   name: 'Adquirir', imagem:'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2FRhuna%20Arquivos.png?alt=media&token=1205072f-3726-4ddf-ac5c-6ceddd50eaad' },
+  {id: 'Adquirir',    name:'Adquirir', imagem:'https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2FRhuna%20Arquivos.png?alt=media&token=1205072f-3726-4ddf-ac5c-6ceddd50eaad' },
+  ]

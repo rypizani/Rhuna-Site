@@ -4,7 +4,7 @@ import { AboutP, AboutSection } from "./StyledAbout";
 const AboutPage = () => {
   return (
     <AboutSection>
-      <PageHeader title="About" />
+      <PageHeader title="FAQ" />
       <article>
         <AboutP>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
