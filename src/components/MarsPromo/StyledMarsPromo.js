@@ -62,3 +62,6 @@ export const StyledDeimos = styled(CelestialObject)`
   width: 10%;
   height: 10%;
 `;
+export const Img = styled.img`
+    padding-right: 0;
+`

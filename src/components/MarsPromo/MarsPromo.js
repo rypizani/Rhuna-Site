@@ -9,20 +9,21 @@ import {
   StyledMarsAndMoonsContainer,
   StyledParagraph,
   StyledPhobos,
-  StyledSection
+  StyledSection,
+  Img
 } from "./StyledMarsPromo";
+
+import img from "../../images/Icone original 2.png"
 
 const MarsPromo = () => (
   <StyledSection>
     <StyledContentContainer>
       <StyledHeading>Gether information about Mars and its two moons, Phobos and Deimos</StyledHeading>
       <StyledParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</StyledParagraph>
-      <Button $isRed to="/body/mars">Explore Mars</Button>
+      <Button $isRed to="/service">Ver Serviços</Button>
     </StyledContentContainer>
     <StyledMarsAndMoonsContainer>
-      <StyledMars color={colors.mars}/>
-      <StyledPhobos />
-      <StyledDeimos />
+      <Img src={img}/>
     </StyledMarsAndMoonsContainer>
   </StyledSection>
 );

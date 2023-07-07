@@ -78,9 +78,9 @@ const BodyPage = () => {
 
   return (
     <>
-      <PageHeader title={data.name} />
+      <PageHeader title={data.quemsomos} />
       <StyledCelestialObjectSection>
-      <Img src={data.imagem}/>
+      <Img src={data.ficha}/>
       <StyledCelestialObjectInformation data={data} />
 
       </StyledCelestialObjectSection>
