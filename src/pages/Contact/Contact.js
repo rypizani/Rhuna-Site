@@ -1,47 +1,32 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
-
-import {
-  StyledForm,
-  StyledLabel,
-  StyledInput,
-  StyledTextArea,
-  StyledSubmitButton
-} from "./StyledContact";
+import { AboutP, AboutSection } from "./StyledContact";
 
 const ContactPage = () => {
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-
-    alert("Form may or may not have been submitted :)");
-
-    e.target.reset();
-  }
-
   return (
-    <>
-      <PageHeader title="Contact" />
-      <section>
-        <StyledForm onSubmit={handleFormSubmit}>
-          <StyledLabel>
-            Name:
-            <StyledInput type="text "name="name" required />
-          </StyledLabel>
-
-          <StyledLabel>
-            E-mail:
-            <StyledInput type="email" name="email" required />
-          </StyledLabel>
-
-          <StyledLabel>
-            Message:
-            <StyledTextArea name="message" required />
-          </StyledLabel>
-
-          <StyledSubmitButton type="submit" value="Send" />
-        </StyledForm>
-      </section>
-    </>
+    <AboutSection>
+      <PageHeader title="Sobre Nós" />
+      <article>
+        <AboutP>
+          A empresa está no mercado desde 1945, fabricando fertilizantes
+          solúveis em água de alta qualidade para produtores de culturas de alto
+          valor, incluindo a indústria de horticultura, hortaliças de estufa e
+          outros produtores com requisitos exigentes. Os fertilizantes
+          Plant-Prod são vendidos em todo o mundo. Nos Estados Unidos, eles são
+          vendidos sob a marca Plantex. Antes de junho de 2013, a empresa se
+          chamava Plant Products Co. Ltd e também distribuía suprimentos
+          agrícolas. Esta função agora é realizada por uma empresa separada, a
+          Plant Products Inc. , com um depósito em Leamington, Ontário.
+          Fertilizantes Plant-Prod selecionados estão disponíveis para o mercado
+          doméstico e de jardim. Eles são distribuídos no Canadá por Gerard
+          Bourbeau & Fils Inc. A missão da empresa é fornecer a melhor nutrição
+          vegetal solúvel do mundo e suporte superior ao produtor - de forma
+          consistente, para que os produtores da Plant-Prod prosperem além de
+          outros
+        </AboutP>
+        <AboutP></AboutP>
+      </article>
+    </AboutSection>
   );
-}
+};
 
 export default ContactPage;

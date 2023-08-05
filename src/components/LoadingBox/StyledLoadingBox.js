@@ -32,8 +32,8 @@ const StyledVisibilityAnimation = keyframes`
 `
 
 export const StyledLoadingBox = styled.div`
-  background-color: #141823;
-  background: linear-gradient(90deg, #141823, #252d41);
+  background-color: #303c2c;
+  background: linear-gradient(90deg, #303c2c, #252d41);
   background-size: 200% 100%;
   width: 100%;
   height: 100%;

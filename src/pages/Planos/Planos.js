@@ -19,7 +19,7 @@ const Planos = () => (
             key={planet2.id}
             imagem={planet2.imagem}
             name={planet2.name}
-            to={`/contact`}
+            to={`/about`}
           />
         ))}
       </CelestialObjectCardsContainer>

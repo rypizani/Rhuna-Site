@@ -7,7 +7,7 @@ export const StyledSection = styled.section`
   align-content: center;
   align-items: center;
   justify-items: center;
-  padding-block: 10em;
+  padding-block: 5em;
 
   @media (min-width: 48em) {
     grid-template-columns: repeat(12, 1fr);

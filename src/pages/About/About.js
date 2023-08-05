@@ -1,41 +1,62 @@
 import PageHeader from "../../components/PageHeader/PageHeader";
-import { AboutP, AboutSection } from "./StyledAbout";
+import { AboutP, AboutSection, StyledCard } from "./StyledAbout";
+import {Accordion, AccordionBody, AccordionHeader, AccordionItem} from "react-headless-accordion";
 
 const AboutPage = () => {
   return (
     <AboutSection>
       <PageHeader title="FAQ" />
-      <article>
-        <AboutP>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          convallis purus a tortor mattis, quis vulputate mi imperdiet. In a
-          libero ut lacus dictum volutpat. Aliquam erat volutpat. Fusce neque
-          sapien, finibus eget luctus id, congue nec libero. Sed auctor nulla at
-          eros feugiat congue. Vestibulum non facilisis est, eu rhoncus orci.
-          Sed justo justo, tristique quis lectus ut, tempor lobortis lorem.
-          Suspendisse imperdiet dolor vel sapien vehicula, eget venenatis nibh
-          semper. Nullam ac lacinia leo. Nunc purus erat, ultrices et arcu
-          vitae, dapibus blandit felis. Ut turpis libero, placerat nec nisi a,
-          hendrerit bibendum tortor. Donec sem purus, hendrerit a rutrum a,
-          porttitor varius sem. Suspendisse euismod, mauris non vehicula
-          facilisis, ex ante ullamcorper dolor, ac dignissim risus ipsum vel
-          nisl. Sed rutrum augue nisi, imperdiet sollicitudin nulla eleifend eu.
-          Proin suscipit rutrum tempor. Maecenas id rutrum tellus.
-        </AboutP>
-        <AboutP>
-          Ut in aliquam nulla. Aliquam porta, arcu ut pretium commodo, nisi
-          augue porttitor velit, in pharetra nibh ante eget erat. Aenean dictum
-          sem erat, a finibus felis sodales ut. Praesent id erat sit amet ipsum
-          porttitor vehicula. Duis et mi lacinia, hendrerit nunc quis,
-          ullamcorper justo. Morbi vitae odio varius, fringilla eros non,
-          dignissim nibh. Donec vitae blandit justo. Vivamus tristique lorem sed
-          sodales facilisis. Cras volutpat nisi in felis scelerisque, vitae
-          varius lectus tincidunt. Praesent luctus ultrices justo, ut aliquet
-          metus accumsan non. Fusce tincidunt lorem mattis diam accumsan
-          ullamcorper. Sed mollis, tellus id sollicitudin eleifend, elit dolor
-          sollicitudin justo, at tincidunt orci ipsum eu ipsum.
-        </AboutP>
-      </article>
+<StyledCard>
+      <Accordion>
+            <AccordionItem>
+                <AccordionHeader>
+                    <h3 className={`accordion-title`} >Porque usar plant- Prod MJ?</h3>
+                </AccordionHeader>
+
+                <AccordionBody>
+                    <div className="accordion-body">
+                    Plantprodmj tem a formulação ideal para cannabis com macro e micro nutrientes disponíveis no melhor formato para as plantas.
+Disponibilizando tudo que sua planta precisa.
+Sem falar na praticidade de misturar apenas 2 produtos para ter uma rega completa.
+                    </div>
+                </AccordionBody>
+            </AccordionItem>
+              <p></p>
+            <AccordionItem>
+                <AccordionHeader>
+                    <h3 className={`accordion-title`}>Tem diferença no rendimento?</h3>
+                </AccordionHeader>
+                <AccordionBody>
+                    <div className="accordion-body">
+                    OBTENHA BOTÕES MAIORES, MAIS DENSOS E UM CRESCIMENTO MAIS RÁPIDO EM UMA BASE MAIS CONSISTENTE  COM O FERTILIZANTE DE CANNABIS PLANT-PROD MJ
+Veja seu Bud mais gordo dia a dia
+                    </div>
+                </AccordionBody>
+            </AccordionItem>
+            <p></p>
+            <AccordionItem>
+                <AccordionHeader>
+                    <h3 className={`accordion-title`}>O que é Plant-Prod MJ ?</h3>
+                </AccordionHeader>
+
+                <AccordionBody>
+                    <div className="accordion-body">
+                    Plant-Prod MJ é um
+Fertilizante mineral de cannabis 100% solúvel em água.
+
+Para NUTRIÇÃO DE PLANTAS DE ALTA PRODUTIVIDADE usamos Misturas personalizadas quelatadas para atender às necessidades exclusivas de suas plantas.
+
+Feito com os materiais de maior qualidade técnica do mundo.
+
+Sem ingredientes mais baratos ou altas concentrações de sais, usamos apenas nutrientes puros.
+.
+
+Testamos constantemente todas as novas matérias-primas para garantir que cada colheita tenha a mesma qualidade.</div>
+                </AccordionBody>
+            </AccordionItem>
+            <p></p>
+        </Accordion>
+        </StyledCard>
     </AboutSection>
   );
 };

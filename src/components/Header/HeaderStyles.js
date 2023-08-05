@@ -5,7 +5,7 @@ const HeaderStyle = styled.div`
   justify-content: space-between;
   //   align-items: flex-end;
   padding-block: 1em;
-  background-color: #0f131fc4;
+  background-color: #495c42;
 
   @media (max-width: 550px) {
     height: 25vh;

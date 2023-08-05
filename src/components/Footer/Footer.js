@@ -6,24 +6,38 @@ import {
   FooterP,
   HeaderFooterP,
   StyledFooterColumn,
+  StyledFooterColumn2,
   StyledFooterRow,
   StyledFooterSection,
+  ServicesIcon
 } from "./StyledFooter";
+import Whatsapp from "../../images/whatsapp.svg"
+import Discord from "../../images/discord.svg"
+import Linkedin from "../../images/linkedin.svg"
+import Instagram from "../../images/instagram.svg"
+
+import {HeroContainer} from "./../Hero/StyledHero"
+
 
 const Footer = () => {
   return (
     <StyledFooterSection>
-      <StyledFooterColumn>
-        <HeaderFooterP>Rhuna</HeaderFooterP>
+      <StyledFooterColumn2>
+        <HeaderFooterP>Entre em Contato</HeaderFooterP>
         <FooterP>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <FooterA href="https://wa.me/5519989937300"> 
+        <ServicesIcon src={Whatsapp}/>
+        </FooterA>
+        <FooterA href="https://www.instagram.com/plantprodmj/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+        <ServicesIcon src={Instagram}/>
+        </FooterA>
         </FooterP>
-      </StyledFooterColumn>
+      </StyledFooterColumn2>
       <StyledFooterRow margin>
         <StyledFooterRow>
           <StyledFooterRow linkContainer>
             <StyledFooterColumn>
-              <HeaderFooterP smallHeader>Serviços</HeaderFooterP>
+              <HeaderFooterP smallHeader>Produtos</HeaderFooterP>
               {planets.map((item, index) => {
                 return (
                   <FooterLink key={index} to={`/body/${item.id}`}>
@@ -33,15 +47,15 @@ const Footer = () => {
               })}
             </StyledFooterColumn>
             <StyledFooterColumn>
-              <HeaderFooterP smallHeader>Information</HeaderFooterP>
-              <FooterA href="#">How it works</FooterA>
-              <FooterA href="#">Download app</FooterA>
-              <FooterA href="#">Developer portal</FooterA>
+              <HeaderFooterP smallHeader>Redes Sociais</HeaderFooterP>
+              <FooterA href="https://api.whatsapp.com/send/?phone=5519989937300&text&type=phone_number&app_absent=0">Whatsapp</FooterA>
+              <FooterA href="https://wa.me/5519989937300">Instagram</FooterA>
             </StyledFooterColumn>
             <StyledFooterColumn>
-              <HeaderFooterP smallHeader>About</HeaderFooterP>
-              <FooterA href="#">News and press</FooterA>
-              <FooterA href="#">Personal data and collection</FooterA>
+              <HeaderFooterP smallHeader>Sobre Nós</HeaderFooterP>
+              <FooterLink to="/about">
+              <FooterA>Sobre Nós</FooterA>
+              </FooterLink>       
               <FooterLink to="/FAQ">
               <FooterA>FAQ</FooterA>
               </FooterLink>
@@ -52,7 +66,7 @@ const Footer = () => {
       <Border />
       <StyledFooterRow bottomContainer>
         <FooterP bottom>
-          Copyright 2023 Rhuna, All rights reserved.
+          Copyright 2023 Plant-Prod, All rights reserved.
         </FooterP>
         <StyledFooterRow bottomDiv>
           <FooterP bottom>Terms of Service</FooterP>
@@ -60,6 +74,7 @@ const Footer = () => {
         </StyledFooterRow>
       </StyledFooterRow>
     </StyledFooterSection>
+    
   );
 };
 

@@ -4,7 +4,7 @@ import CelestialObject from "../CelestialObject/CelestialObject";
 import Button from "../Button/Button";
 
 export const StyledCard = styled.div`
-  background-color: #141823;
+  background-color: #303c2c;
   padding: 2em;
   display: flex;
   flex-direction: column;

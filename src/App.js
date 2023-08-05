@@ -14,7 +14,6 @@ import BodyPage from "./pages/Body/Body";
 import PlanetsPage from "./pages/Planets/Planets";
 import AboutPage from "./pages/About/About";
 import ContactPage from "./pages/Contact/Contact";
-
 function App() {
   const location = useLocation();
 
@@ -33,7 +32,7 @@ function App() {
           <Route path="/service" element={<PlanetsPage />} />
           <Route path="/body/:id" element={<BodyPage />} />
           <Route path="/FAQ" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/about" element={<ContactPage />} />
         </Routes>
         <Footer />
       </Layout>

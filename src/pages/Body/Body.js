@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import { endpoints, colors } from "../../constants"
-
+import Footer2 from "../../components/Footer2/Footer2";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import CelestialObjectCardsContainer from "../../components/CelestialObjectCardsContainer/CelestialObjectCardsContainer";
 import CelestialObjectCard from "../../components/CelestialObjectCard/CelestialObjectCard"
-
+import Button from "../../components/Button/Button"
 import {
   StyledPageHeaderLoadingBox,
   StyledCelestialObjectLoadingBox,
@@ -21,7 +21,7 @@ import {
 const BodyPage = () => {
   const [ isLoading, setIsLoading ] = useState(false);
 
-  
+
   const [ data, setData ] = useState(null);
 
   const params = useParams();
@@ -63,6 +63,7 @@ const BodyPage = () => {
         <StyledCelestialObjectLoadingBox />
         <StyledInformationLoadingBox />
       </StyledCelestialObjectSection>
+      <Button $isRed to="/service">Produtos</Button>
     </>
   )
 
@@ -80,10 +81,15 @@ const BodyPage = () => {
     <>
       <PageHeader title={data.quemsomos} />
       <StyledCelestialObjectSection>
+        
       <Img src={data.ficha}/>
+      
       <StyledCelestialObjectInformation data={data} />
 
       </StyledCelestialObjectSection>
+
+      <Footer2/>
+
     </>
   )
 }

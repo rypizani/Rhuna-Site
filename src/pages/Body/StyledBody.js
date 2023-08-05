@@ -72,7 +72,7 @@ export const Img = styled.img`
 
 
 export const StyledInformationContainer = styled.div`
-  background-color: #141823;
+  background-color: #303c2c;
   display: flex;
   flex-direction: column;
   padding: 1em;

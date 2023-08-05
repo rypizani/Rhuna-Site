@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const colors = {
   blue: ['#1E84FD', '#0238C5'],
-  red:  ['#191919', '#808080']
+  red:  ['#303c2c', '#495c42',]
 }
 
 export const StyledButton = styled(Link)`

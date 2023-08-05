@@ -104,6 +104,5 @@ export const FooterA = styled.a`
 
 
 export const ServicesIcon = styled.img`
-    height: 50px;
-    margin-left: 30px;
+    height: 500px;
 `

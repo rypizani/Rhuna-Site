@@ -17,17 +17,14 @@ const Navbar = () => {
         <Link to="/" onClick={toggleBurger}>
           Home
         </Link>
-        <Link to="/plans" onClick={toggleBurger}>
-          Planos
-        </Link>
         <Link to="/service" onClick={toggleBurger}>
-          Serviços
+          Produtos
         </Link>
         <Link to="/FAQ" onClick={toggleBurger}>
           FAQ
         </Link>
-        <Link to="/contact" onClick={toggleBurger}>
-          Contato
+        <Link to="/about" onClick={toggleBurger}>
+          Sobre Nós
         </Link>
       </NavbarStyle>
 

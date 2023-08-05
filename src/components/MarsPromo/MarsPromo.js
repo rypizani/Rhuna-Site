@@ -18,9 +18,9 @@ import img from "../../images/Icone original 2.png"
 const MarsPromo = () => (
   <StyledSection>
     <StyledContentContainer>
-      <StyledHeading>Gether information about Mars and its two moons, Phobos and Deimos</StyledHeading>
-      <StyledParagraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</StyledParagraph>
-      <Button $isRed to="/service">Ver Serviços</Button>
+      <StyledHeading>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</StyledHeading>
+      <StyledParagraph>Lorem Ipsum is simply dummy.</StyledParagraph>
+      <Button $isRed to="/service">Produtos</Button>
     </StyledContentContainer>
     <StyledMarsAndMoonsContainer>
       <Img src={img}/>

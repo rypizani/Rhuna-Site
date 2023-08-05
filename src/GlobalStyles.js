@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
   body {
     margin: 0;
-    background-color: #0F131F;
+    background-color: #495c42;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased;

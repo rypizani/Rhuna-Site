@@ -16,59 +16,44 @@ export const colors = {
 
 export const planets = [
   {
-    id: "realocacao",
-    name: "Realocação",
-    imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2F8431480.jpg?alt=media&token=38dd833b-e16b-420c-83e3-a682029ce11b",
+    id: "Bloom Cannabis",
+    name: "Bloom Cannabis",
+    imagem:"https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(6).png?alt=media&token=fbee9f28-e67c-4235-a086-73dd68dcbe2a",
   },
   {
-    id: "gestao",
-    name: "Gestão de Equipe",
+    id: "Cal Kick Cannabis",
+    name: "Cal Kick Cannabis",
     description: "teste",
     imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2F5803496.jpg?alt=media&token=c16e8e84-95d1-4a92-b830-2db6c3db76ea",
+      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(7).png?alt=media&token=94042a45-53d6-4bbd-a603-67115eb8050e",
   },
   {
-    id: "agenda",
-    name: "Agenda",
+    id: "Boost Cannabis",
+    name: "Boost Cannabis",
     description: "teste",
     imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2Fagenda.jpg?alt=media&token=5670bb6c-5619-4558-b9cd-607752ca38fb",
+      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(8).png?alt=media&token=e2feb81a-0070-4fbc-95b6-1dcf9c760531",
   },
   {
-    id: "kanban",
-    name: "Kanban",
+    id: "Finisher Cannabis",
+    name: "Finisher Cannabis",
     description: "teste",
     imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2Fkanban.jpg?alt=media&token=e5288eaa-3dd3-4086-b7cc-b5fbbb70a0f4",
+      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(9).png?alt=media&token=4452593b-0f64-411c-9a60-e1cdee204d12",
   },
   {
-    id: "email",
-    name: "Envio de Email",
+    id: "SpikeCannabis",
+    name: "Cannabis Plant-Prod MJ TM Spike (CaMg)",
     description: "teste",
     imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2FDesign%20sem%20nome%20(3).png?alt=media&token=d38cfc35-682c-4c1a-932e-1039c4a9533c",
+      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(10).png?alt=media&token=b95e293d-03c6-422d-bc72-fdd80690db48",
   },
   {
-    id: "doc",
-    name: "Documentos",
+    id: "Grow Cannabis",
+    name: "Grow Cannabis",
     description: "teste",
     imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2Fdoc.jpg?alt=media&token=8a61eb5f-e610-4cc9-b1cb-527a807e616a",
-  },
-  {
-    id: "reunioes",
-    name: "Reuniões",
-    description: "teste",
-    imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2Freunioes.jpg?alt=media&token=46cc5db8-6242-4b39-95e1-19ec642117fc",
-  },
-  {
-    id: "api",
-    name: "Integrações",
-    description: "teste",
-    imagem:
-      "https://firebasestorage.googleapis.com/v0/b/livrariaflutter.appspot.com/o/rhuna%2F7122676.jpg?alt=media&token=cf9f7d23-4ecd-47bc-ab4c-59de7272af1d",
+      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(12).png?alt=media&token=31bdadc9-5fac-4fe8-980a-2064f9e91f27",
   },
 ];
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import CelestialObject from "../CelestialObject/CelestialObject";
 
 export const StyledSection = styled.section`
-  background-color: #141823;
+  background-color: #303c2c;
   display: flex;
   flex-direction: column;
   gap: 2em;

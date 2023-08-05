@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 // pexels.com for free stock videos
-import Video from '../../videos/mundo.mp4'
+import Video from '../../videos/file.mp4'
 import img from '../../images/Logo Original 2.png'
 import {
     HeroContainer,
@@ -34,9 +34,8 @@ const Hero = () => {
 
             <Img src={img}/>
 
-                <HeroH1>Eficiência, Organização E Colaboração </HeroH1>
+                <HeroH1>HIGH PRODUCTIVITY PLANT NUTRITION</HeroH1>
                 <HeroP> 
-                Lorem ipsum dolor sit amet. Quo cupiditate veniam quo voluptatum alias sit tempore sequi eos rerum consequuntur est totam quisquam ab ullam sunt aut velit cumque.
                 </HeroP>
                 <HeroBtnWrapper>
                    

@@ -6,7 +6,6 @@ import {
   Img
 } from "./StyledCelestialObjectCard";
 import img from '../../images/Icone original 2.png'
-
 const CelestialObjectCard = ({
   className,
   color,
@@ -18,6 +17,7 @@ imagem
   <StyledCard className={className}>
     <Img src={imagem}/>
     <StyledButton to={to || '/'}>{name}</StyledButton>
+
   </StyledCard>
 );
 
