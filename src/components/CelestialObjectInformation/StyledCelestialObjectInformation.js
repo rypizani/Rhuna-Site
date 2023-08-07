@@ -43,6 +43,7 @@ export const StyledInformationContainer = styled.div`
 
 export const StyledHeading = styled.h3`
   margin-block: 0 1em;
+  
 
   @media (min-width: 48em) {
     grid-column: 1 / 3;

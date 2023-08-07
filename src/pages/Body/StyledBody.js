@@ -65,7 +65,7 @@ export const StyledMoonsSection = styled.section`
 `;
 
 export const Img = styled.img`
-    width: 50%;
+    width: auto;
     padding-right: 0;
     border-radius: 10%;
 `
