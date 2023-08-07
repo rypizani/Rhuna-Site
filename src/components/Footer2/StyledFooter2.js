@@ -104,4 +104,5 @@ export const FooterA = styled.a`
 
 
 export const ServicesIcon = styled.img`
+    height: auto
 `
