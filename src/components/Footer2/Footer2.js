@@ -23,7 +23,7 @@ const Footer2 = () => {
   return (
     <StyledFooterSection>
       <StyledFooterColumn2>
-      <HeaderFooterP>Tabela Nutricional</HeaderFooterP>
+      <HeaderFooterP>Programa Nutricional</HeaderFooterP>
 
         <FooterP>
         <ServicesIcon src={Tabela}/>

@@ -13,6 +13,7 @@ const CelestialObjectInformation = ({ className, data }) => (
   <StyledInformationContainer className={className}>
     <StyledHeading>Informações:</StyledHeading>
     <StyledHeading>{data.binicio}</StyledHeading>
+
     <Divv >
     </Divv>
  

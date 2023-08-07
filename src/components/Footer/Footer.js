@@ -66,7 +66,7 @@ const Footer = () => {
       <Border />
       <StyledFooterRow bottomContainer>
         <FooterP bottom>
-          Copyright 2023 Plant-Prod, All rights reserved.
+          Copyright 2023 Plant-Prod MJ ™, All rights reserved.
         </FooterP>
         <StyledFooterRow bottomDiv>
           <FooterP bottom>Terms of Service</FooterP>

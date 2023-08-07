@@ -87,6 +87,10 @@ const BodyPage = () => {
       <StyledCelestialObjectInformation data={data} />
 
       </StyledCelestialObjectSection>
+<p>Simples, mas científico.  A linha Plant-Prod MJ ™ de fertilizantes de cannabis solúveis em água foi projetada para trazer nossos 70 anos de experiência para os produtores de cannabis de hoje.  A Plant-Prod está entusiasmada em fornecer aos produtores licenciados produtos de maconha medicinal que são fertilizantes cientificamente otimizados, consistentes e completamente solúveis em água. Eleve seu grow ao nível máximo.</p>
+    <p>
+    </p>
+    <p></p>
 
       <Footer2/>
 

@@ -17,40 +17,33 @@ export const colors = {
 export const planets = [
   {
     id: "Bloom Cannabis",
-    name: "Bloom Cannabis",
+    name: "Plant-Prod MJ ™ Bloom",
     imagem:"https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(6).png?alt=media&token=fbee9f28-e67c-4235-a086-73dd68dcbe2a",
   },
   {
     id: "Cal Kick Cannabis",
-    name: "Cal Kick Cannabis",
+    name: " Plant-Prod MJ ™ High Cal Mag",
     description: "teste",
     imagem:
       "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(7).png?alt=media&token=94042a45-53d6-4bbd-a603-67115eb8050e",
   },
   {
     id: "Boost Cannabis",
-    name: "Boost Cannabis",
+    name: "Plant-Prod MJ ™ Boost",
     description: "teste",
     imagem:
       "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(8).png?alt=media&token=e2feb81a-0070-4fbc-95b6-1dcf9c760531",
   },
   {
     id: "Finisher Cannabis",
-    name: "Finisher Cannabis",
+    name: "MJ Finisher ™",
     description: "teste",
     imagem:
       "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(9).png?alt=media&token=4452593b-0f64-411c-9a60-e1cdee204d12",
   },
   {
-    id: "SpikeCannabis",
-    name: "Cannabis Plant-Prod MJ TM Spike (CaMg)",
-    description: "teste",
-    imagem:
-      "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(10).png?alt=media&token=b95e293d-03c6-422d-bc72-fdd80690db48",
-  },
-  {
     id: "Grow Cannabis",
-    name: "Grow Cannabis",
+    name: "Plant-Prod MJ ™ Grow",
     description: "teste",
     imagem:
       "https://firebasestorage.googleapis.com/v0/b/lojaflutter-8e9fa.appspot.com/o/plantprod%2FRhuna%20Arquivos%20(12).png?alt=media&token=31bdadc9-5fac-4fe8-980a-2064f9e91f27",

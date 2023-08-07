@@ -49,8 +49,8 @@ export const StyledPlanetParagraph = styled.p`
 `;
 
 export const ServicesIcon = styled.img`
-    height: 250px;
-    width: 250px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 10px;
     border-radius:30px;
 `

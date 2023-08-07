@@ -10,7 +10,7 @@ const AboutPage = () => {
       <Accordion>
             <AccordionItem>
                 <AccordionHeader>
-                    <h3 className={`accordion-title`} >Porque usar plant- Prod MJ?</h3>
+                    <h3 className={`accordion-title`} >Porque usar Plant-Prod MJ ™?</h3>
                 </AccordionHeader>
 
                 <AccordionBody>
@@ -28,7 +28,7 @@ Sem falar na praticidade de misturar apenas 2 produtos para ter uma rega compl
                 </AccordionHeader>
                 <AccordionBody>
                     <div className="accordion-body">
-                    OBTENHA BOTÕES MAIORES, MAIS DENSOS E UM CRESCIMENTO MAIS RÁPIDO EM UMA BASE MAIS CONSISTENTE  COM O FERTILIZANTE DE CANNABIS PLANT-PROD MJ
+                    OBTENHA BOTÕES MAIORES, MAIS DENSOS E UM CRESCIMENTO MAIS RÁPIDO EM UMA BASE MAIS CONSISTENTE  COM O FERTILIZANTE DE CANNABIS Plant-Prod MJ ™
 Veja seu Bud mais gordo dia a dia
                     </div>
                 </AccordionBody>
@@ -36,12 +36,12 @@ Veja seu Bud mais gordo dia a dia
             <p></p>
             <AccordionItem>
                 <AccordionHeader>
-                    <h3 className={`accordion-title`}>O que é Plant-Prod MJ ?</h3>
+                    <h3 className={`accordion-title`}>O que é Plant-Prod MJ ™ ?</h3>
                 </AccordionHeader>
 
                 <AccordionBody>
                     <div className="accordion-body">
-                    Plant-Prod MJ é um
+                    Plant-Prod MJ ™ é um
 Fertilizante mineral de cannabis 100% solúvel em água.
 
 Para NUTRIÇÃO DE PLANTAS DE ALTA PRODUTIVIDADE usamos Misturas personalizadas quelatadas para atender às necessidades exclusivas de suas plantas.
