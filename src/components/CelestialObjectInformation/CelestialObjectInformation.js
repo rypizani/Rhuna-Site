@@ -17,7 +17,7 @@ const CelestialObjectInformation = ({ className, data }) => (
     <Divv >
     </Divv>
  
-    <Teste $isRed href="https://api.whatsapp.com/send/?phone=5519989937300&text&type=phone_number&app_absent=0"> Adquirir Já</Teste>
+    <Teste $isRed href="https://marcelomarcelo20230827124215.mercadoshops.com.br"> Adquirir Já</Teste>
 
   </StyledInformationContainer>
 );
